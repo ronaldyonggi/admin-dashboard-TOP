@@ -1,0 +1,20 @@
+.contents {
+  grid-column: 2/3;
+  grid-row: 2;
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 30px repeat(3, 1fr);
+}
+
+.announcements {
+}
+
+.trending {
+}
+
